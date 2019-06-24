@@ -30,21 +30,21 @@ How to run the code
 -------------------
 1. To compute Wasserstein distance:
 
-'''
+```
 python ipot_demo.py
-'''
+```
 
 2. To learn 1D generative model:
 
-'''
+```
 python learning_demo.py
-'''
+```
 
 3. To compute Wasserstein barycenter:
 
-'''
+```
 python barycenter_demo.py
-'''
+```
 
 -------------------
 License
@@ -52,11 +52,11 @@ License
 
 If you use my code, please cite our paper
 
-'''
+```
 @article{xie2018fast,
   title={A Fast Proximal Point Method for Computing Exact Wasserstein Distance},
   author={Xie, Yujia and Wang, Xiangfeng and Wang, Ruijia and Zha, Hongyuan},
   journal={arXiv preprint arXiv:1802.04307},
   year={2018}
 }
-'''
+```
