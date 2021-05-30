@@ -92,8 +92,8 @@ print('This is to show the convergence behavoir.')
 from cycler import cycler
 plt.rc('axes', prop_cycle=(cycler('color', ['darkred', 'r', 'salmon']) ))
 
-for i,opt1 in enumerate(epsilon_list):
-    plt.semilogy(np.asarray(loss_list[i])-ground_truth,label=r'IPOT $\beta$ = '+str(epsilon_list[i]))
+for i,opt1 in enumerate(beta_list):
+    plt.semilogy(np.asarray(loss_list[i])-ground_truth,label=r'IPOT $\beta$ = '+str(beta_list[i]))
 
 plt.ylabel('$|W-W_{LP}|$',fontsize=20)
 plt.xlabel('# iteration',fontsize=20)
